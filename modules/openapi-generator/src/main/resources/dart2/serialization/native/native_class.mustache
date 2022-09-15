@@ -230,6 +230,8 @@ class {{{classname}}} {
     {{/isDateTime}}
   {{/vars}}
       );
+    } else if(value is {{{classname}}}){
+      return value;
     }
     return null;
   }
